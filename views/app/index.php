@@ -1,7 +1,6 @@
 <?php include(VIEWS . '_partials/header.php'); ?>
 
-
-
+<a class="btn btn-warning" href="<?= BASE_PATH.'email/send'  ?>">Envoyer</a>
 
 <div class="row">
 <!--    --><?php //var_dump($_SESSION['panier']);?>
